@@ -217,7 +217,7 @@
                                 icon: 'warning',
                                 'title': 'Error al eliminar la marca, intente de nuevo'
                             });
-                        }
+                            }
                         break;
 
                     }

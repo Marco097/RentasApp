@@ -82,7 +82,7 @@ class AlquilerController extends Controller
                 return response()->json(['status' => 'ok', 'data' => $alquiler], 201);
             }else{
                 DB::commit();
-                return response()->json(['status' => 'fail', 'data' => null], 409);
+                return response()->json(['status' => 'fail', 'data' => $alquiler], 409);
             }
 
         }catch(\Exception $e){
